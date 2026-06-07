@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Outfit", sans-serif;
+  --font-cursive: "Pacifico", cursive;
+}
+
+.burger-container {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.paste {
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 20%;
+  width: auto;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.tomato {
+  position: absolute;
+  bottom: 12%;
+  left: 2%;
+  height: 32%;
+  width: auto;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.onion {
+  position: absolute;
+  bottom: 10%;
+  right: 2%;
+  height: 38%;
+  width: auto;
+  z-index: 10;
+  pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  .paste,
+  .tomato,
+  .onion {
+    display: none !important;
+  }
+}

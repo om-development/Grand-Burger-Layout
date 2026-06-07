@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grand-Burger</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="font-sans antialiased bg-stone-900 text-stone-100">
+
+  <header
+    style="background-image: linear-gradient(rgba(203, 40, 40, 0.852), rgba(235, 45, 45, 0.865)), url(https://themes.themegoods.com/grandrestaurantv6/demo9/wp-content/uploads/sites/9/2021/01/image-from-rawpixel-id-2362080-jpeg.jpg);"
+    class="bg-no-repeat bg-center bg-cover min-h-screen w-full flex flex-col justify-between items-center overflow-hidden py-4 md:py-6 relative">
+
+    <nav class="w-full max-w-7xl mx-auto flex justify-between items-center px-6 md:px-12 py-2 md:py-4 z-50">
+
+      <div class="nav-left hidden lg:block flex-1">
+        <ul class="flex space-x-8 items-center">
+          <li><a href="#"
+              class="text-amber-400 hover:text-amber-300 font-semibold text-lg transition duration-200 tracking-wide">Home</a>
+          </li>
+          <li><a href="#"
+              class="text-white hover:text-amber-400 font-semibold text-lg transition duration-200 tracking-wide">Our
+              Menu</a></li>
+          <li><a href="#"
+              class="text-white hover:text-amber-400 font-semibold text-lg transition duration-200 tracking-wide">About</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="logo flex justify-center flex-1 lg:flex-none">
+        <a href="#" class="block focus:outline-none">
+          <img src="src/assets/logo.png"
+            class="h-14 md:h-18 lg:h-22 w-auto object-contain transition-transform duration-300 hover:scale-105"
+            alt="Grand Burger Logo">
+        </a>
+      </div>
+
+      <div class="nav-right flex-1 hidden lg:flex justify-end">
+        <ul class="flex space-x-8 items-center">
+          <li><a href="#"
+              class="text-white hover:text-amber-400 font-semibold text-lg transition duration-200 tracking-wide">Order
+              online</a></li>
+          <li><a href="#"
+              class="text-white hover:text-amber-400 font-semibold text-lg transition duration-200 tracking-wide">Find
+              Us</a></li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <div class="mid w-full flex flex-col items-center justify-center relative py-6 md:py-8 flex-1">
+      <div
+        class="hero-text text-4xl sm:text-6xl md:text-7xl lg:text-[80px] leading-tight text-white font-extrabold tracking-wider z-10 text-center select-none font-serif mb-4 md:mb-6 uppercase">
+        TASTE THE <br> DIFFERENCE
+      </div>
+
+      <div
+        class="burger-container relative w-full h-[260px] sm:h-[380px] md:h-[440px] lg:h-[500px] flex items-center justify-center">
+        <img src="src/assets/burger.png"
+          class="burger relative z-20 h-[90%] w-auto object-contain select-none transition-transform duration-500 hover:scale-105"
+          alt="Delicious Beef Burger">
+        <img src="src/assets/paste.png" class="paste" alt="Sauce">
+        <img src="src/assets/tomato.png" class="tomato" alt="Tomato">
+        <img src="src/assets/onion.png" class="onion" alt="Onion">
+      </div>
+    </div>
+
+    <div
+      class="bottoms w-full max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center px-6 md:px-12 py-4 md:py-8 gap-6 lg:gap-12 z-20">
+      <div class="part-1 w-full lg:w-3/4 text-center lg:text-left">
+        <h2 class="text-white font-bold font-serif text-2xl sm:text-3xl md:text-4xl tracking-tight mb-2 uppercase">THE
+          BEEF BURGER</h2>
+        <p
+          class="text-white/90 font-medium text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto lg:mx-0">
+          Smoked brisket, tender ribs, smoked sausage, bacon & cheddar with lettuce, tomato, house BBQ & ranch. Don't
+          need a silver fork.
+        </p>
+      </div>
+      <div
+        class="part-2 w-full lg:w-1/4 flex flex-row lg:flex-col justify-center lg:items-end items-center gap-6 lg:gap-1">
+        <h2 class="text-amber-400 font-extrabold font-serif text-2xl sm:text-3xl md:text-4xl tracking-widest uppercase">
+          SAUCE</h2>
+        <h2 class="text-white font-extrabold font-serif text-2xl sm:text-3xl md:text-4xl tracking-widest uppercase">
+          ORIGINAL</h2>
+      </div>
+    </div>
+
+  </header>
+
+  <section class="bg-stone-900 py-16 md:py-24 w-full text-center">
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-8 max-w-7xl mx-auto items-stretch px-0 lg:px-12">
+
+      <div class="flex flex-col justify-between h-full">
+        <div>
+          <div class="border-t border-b border-stone-800 py-4 mb-8">
+            <h3 class="text-stone-400 text-xs sm:text-sm font-bold tracking-widest leading-relaxed uppercase">
+              Don't need a silver fork<br>to eat a good burger
+            </h3>
+          </div>
+          <img src="src/assets/fish-burger.png"
+            class="h-44 sm:h-52 md:h-60 object-contain mx-auto transition-transform duration-300 hover:scale-105 select-none"
+            alt="Fish Burger">
+        </div>
+        <div>
+          <h2 class="text-white font-extrabold text-2xl sm:text-3xl tracking-wide uppercase mt-8 mb-3">Fish Burger</h2>
+          <p
+            class="text-stone-400 text-xs sm:text-sm font-semibold tracking-wider leading-relaxed max-w-xs mx-auto uppercase">
+            Life is like a burger the more you add to it, the better it becomes
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col justify-between h-full">
+        <div>
+          <div class="border-t border-b border-amber-500 py-4 mb-8">
+            <h3
+              class="text-amber-500 text-base sm:text-lg lg:text-xl font-black tracking-widest leading-relaxed uppercase">
+              Our Burgers</h3>
+          </div>
+          <img src="src/assets/beef-burger.png"
+            class="h-44 sm:h-52 md:h-60 object-contain mx-auto transition-transform duration-300 hover:scale-105 select-none"
+            alt="Beef Burger">
+        </div>
+        <div>
+          <h2 class="text-white font-extrabold text-2xl sm:text-3xl tracking-wide uppercase mt-8 mb-3">Beef Burger</h2>
+          <p
+            class="text-stone-400 text-xs sm:text-sm font-semibold tracking-wider leading-relaxed max-w-xs mx-auto uppercase">
+            Burger for the body is not enough there must be a burger for the soul
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col justify-between h-full">
+        <div>
+          <div class="border-t border-b border-stone-800 py-4 mb-8">
+            <h3 class="text-stone-400 text-xs sm:text-sm font-bold tracking-widest leading-relaxed uppercase">
+              Because we never play<br>with someone's health
+            </h3>
+          </div>
+          <img src="src/assets/vegge-burger.png"
+            class="h-44 sm:h-52 md:h-60 object-contain mx-auto transition-transform duration-300 hover:scale-105 select-none"
+            alt="Veggie Burger">
+        </div>
+        <div>
+          <h2 class="text-white font-extrabold text-2xl sm:text-3xl tracking-wide uppercase mt-8 mb-3">Veggie Burger
+          </h2>
+          <p
+            class="text-stone-400 text-xs sm:text-sm font-semibold tracking-wider leading-relaxed max-w-xs mx-auto uppercase">
+            Roses are red, violets are blue. The burger costs less than dinner for two
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="relative flex py-5 items-center w-full max-w-7xl mx-auto mt-16 md:mt-24 px-6 md:px-12">
+      <div class="flex-grow border-t border-amber-500/40"></div>
+      <span
+        class="flex-shrink mx-4 text-amber-500 font-extrabold tracking-widest text-xs sm:text-sm uppercase font-sans">Have
+        it your way</span>
+      <div class="flex-grow border-t border-amber-500/40"></div>
+    </div>
+
+    <div class="menu-section flex flex-col lg:flex-row px-0 lg:px-12">
+      <img class="h-80 lg:h-140 w-full lg:w-1/3 object-cover" src="src/assets/menu-burger.png" alt="Menu Burger">
+
+      <div class="flex flex-col sm:flex-row w-full lg:w-2/3">
+        <div
+          class="white-box w-full sm:w-1/2 h-auto lg:h-140 bg-white flex flex-col justify-around items-center p-3 lg:p-5 space-y-6">
+          <div class="title">
+            <h2 class="text-black text-xl sm:text-2xl lg:text-4xl underline text-left">Our</h2>
+            <h2 class="text-black text-2xl sm:text-3xl lg:text-5xl">Menus</h2>
+          </div>
+          <p class="text-black font-cursive text-xs sm:text-sm lg:text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam ut reprehenderit quas cumque eius
+            minima doloremque doloribus maiores cupiditate porro excepturi dolorum, nemo cum. Eos dolorum unde possimus
+            amet iste, ipsa, repudiandae suscipit velit magni officia sed animi. Saepe in voluptatum facilis corrupti
+            aperiam?
+          </p>
+          <button
+            class="text-sm sm:text-base lg:text-3xl text-white bg-amber-500 rounded-xl py-2 px-4 lg:px-5 items-center justify-center text-center inline-flex">View
+            Menus</button>
+        </div>
+
+        <div
+          class="gray-box w-full sm:w-1/2 h-auto lg:h-140 bg-gray-300 flex flex-col justify-around items-center p-3 lg:p-5 space-y-6">
+          <div class="title">
+            <h2 class="text-black text-xl sm:text-2xl lg:text-4xl underline text-left">Order</h2>
+            <h2 class="text-black text-2xl sm:text-3xl lg:text-5xl">Delivery</h2>
+          </div>
+          <p class="text-black font-cursive text-xs sm:text-sm lg:text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam ut reprehenderit quas cumque eius
+            minima doloremque doloribus maiores cupiditate porro excepturi dolorum, nemo cum. Eos dolorum unde possimus
+            amet iste, ipsa, repudiandae suscipit velit magni officia sed animi. Saepe in voluptatum facilis corrupti
+            aperiam?
+          </p>
+          <button
+            class="text-sm sm:text-base lg:text-3xl text-white bg-black rounded-xl py-2 px-4 lg:px-5 items-center justify-center text-center inline-flex">Order
+            Online</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="photography">
+    <div class="num-1 flex justify-center flex-col lg:flex-row">
+      <img src="src/assets/tomato-sause.png" class="h-150 w-full lg:w-1/2 lg:h-170">
+      <section class="bg-white py-16 px-6 w-full h-auto lg:h-170 text-center lg:w-1/2">
+
+        <div class="relative flex items-center justify-center mb-8 max-w-xs mx-auto">
+          <div class="flex-grow border-t border-stone-400"></div>
+          <span class="mx-4 text-stone-800 font-bold tracking-widest text-sm uppercase">Present</span>
+          <div class="flex-grow border-t border-stone-400"></div>
+        </div>
+
+        <h1
+          class="text-stone-900 font-extrabold text-5xl sm:text-6xl lg:text-7xl tracking-tight uppercase leading-tight mb-2">
+          Tomato<br>Original
+        </h1>
+        <h2 class="text-pink-500 text-4xl sm:text-5xl lg:text-6xl font-bold italic mb-6"
+          style="font-family: 'Playfair Display', serif;">
+          Sauce
+        </h2>
+
+        <p class="text-stone-900 font-extrabold text-sm tracking-widest uppercase mb-6">
+          Our Signature Handmade Beef Patty
+        </p>
+
+        <p class="text-stone-600 text-sm sm:text-base leading-relaxed max-w-md mx-auto mb-10">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium.
+        </p>
+
+        <button
+          class="bg-pink-500 hover:bg-pink-600 transition duration-200 text-white font-bold tracking-widest text-sm uppercase py-4 px-10 rounded-lg">
+          View Menus
+        </button>
+
+      </section>
+    </div>
+    <div class="num-2 flex justify-center flex-col lg:flex-row">
+      <section class="bg-stone-900 py-16 px-6 w-full h-auto lg:h-170 text-center lg:w-1/2">
+
+        <div class="relative flex items-center justify-center mb-8 max-w-xs mx-auto">
+          <div class="flex-grow border-t border-stone-600"></div>
+          <span class="mx-4 text-white font-bold tracking-widest text-sm uppercase">Always</span>
+          <div class="flex-grow border-t border-stone-600"></div>
+        </div>
+
+        <h1
+          class="text-green-500 font-extrabold text-5xl sm:text-6xl lg:text-7xl tracking-tight uppercase leading-tight mb-2">
+          Fresh
+        </h1>
+        <h1
+          class="text-white font-extrabold text-5xl sm:text-6xl lg:text-7xl tracking-tight uppercase leading-tight mb-6">
+          Salad
+        </h1>
+
+        <p class="text-white font-extrabold text-sm tracking-widest uppercase mb-6">
+          Life is like a burger the more you<br>add to it, the better it becomes
+        </p>
+
+        <p class="text-stone-400 text-sm sm:text-base leading-relaxed max-w-md mx-auto mb-10">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium.
+        </p>
+
+        <button
+          class="bg-green-500 hover:bg-green-600 transition duration-200 text-white font-bold tracking-widest text-sm uppercase py-4 px-10 rounded-lg">
+          View Menus
+        </button>
+
+      </section>
+
+      <img src="src/assets/salad.png" class="h-150 w-full lg:w-1/2 lg:h-170 object-cover">
+    </div>
+  </div>
+
+  <!-- Ice Cream Banner -->
+  <div
+    class="relative w-full h-64 sm:h-80 md:h-96 bg-pink-500 overflow-hidden flex items-center justify-start px-8 md:px-16">
+    <div class="absolute inset-0 flex items-end justify-start">
+      <img src="src/assets/ice-cream.png" class="h-full w-auto lg:w-full object-contain object-bottom" alt="Ice Cream">
+    </div>
+    <h1
+      class="relative z-10 text-white font-extrabold text-3xl sm:text-5xl md:text-6xl lg:text-7xl uppercase tracking-tight">
+      <span class="text-base sm:text-lg md:text-2xl font-semibold underline block mb-1">The</span>
+      Super Sunday
+    </h1>
+  </div>
+
+  <!-- Subscribe Banner -->
+  <div class="bg-stone-800 py-10 px-6 md:px-12 w-full">
+
+    <div class="relative flex items-center justify-center mb-8 max-w-xs mx-auto">
+      <div class="flex-grow border-t border-amber-500/60"></div>
+      <span class="mx-4 text-amber-500 font-bold tracking-widest text-sm uppercase">Subscribe Now</span>
+      <div class="flex-grow border-t border-amber-500/60"></div>
+    </div>
+
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10">
+      <p class="text-white text-sm sm:text-base text-center sm:text-left max-w-xs leading-relaxed">
+        Subscribe now to receive fresh deals & offers by email.
+      </p>
+      <div class="flex w-full sm:w-auto">
+        <input type="email" placeholder="Email"
+          class="bg-white text-stone-700 text-sm px-4 py-3 w-full sm:w-72 outline-none">
+        <button
+          class="bg-amber-500 hover:bg-amber-600 transition duration-200 text-white font-bold text-sm px-6 py-3 whitespace-nowrap">
+          Sign up
+        </button>
+      </div>
+    </div>
+
+  </div>
+  <footer class="bg-white py-12 px-6 md:px-12 w-full">
+
+    <div class="flex justify-center mb-10">
+      <div class="px-8 py-4">
+        <img src="src/assets/logo.png" class="h-10 md:h-12 invert w-auto object-contain" alt="Grand Burger Logo">
+      </div>
+    </div>
+
+    <div class="flex flex-col sm:flex-row justify-center gap-8 sm:gap-24 mb-12 text-center sm:text-left">
+      <div>
+        <p class="text-stone-600 text-sm leading-relaxed mb-4">
+          732/21 Second Street, Manchester King<br>Street, Kingston United Kingdom
+        </p>
+        <p class="text-stone-900 font-bold text-sm">T: +65 (0) 76-890-214</p>
+        <p class="text-stone-900 font-bold text-sm">E: bookings@grandburger.com</p>
+      </div>
+
+      <div class="flex flex-col items-center sm:items-start gap-2">
+        <a href="#" class="text-stone-600 hover:text-stone-900 text-sm transition duration-200">Twitter</a>
+        <a href="#" class="text-stone-600 hover:text-stone-900 text-sm transition duration-200">Facebook</a>
+        <a href="#" class="text-stone-600 hover:text-stone-900 text-sm transition duration-200">Instagram</a>
+        <a href="#" class="text-stone-600 hover:text-stone-900 text-sm transition duration-200">Yelp</a>
+      </div>
+    </div>
+
+    <div
+      class="border-t border-stone-200 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left">
+      <p class="text-stone-400 text-xs tracking-widest uppercase">© Copyright Themegoods All Right Reserved.</p>
+      <span class="text-stone-900 text-2xl italic" style="font-family: 'Playfair Display', serif;">Original</span>
+    </div>
+
+  </footer>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
